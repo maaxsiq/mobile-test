@@ -5,8 +5,6 @@ import { api } from '../../services/api';
 import Users from '../../components/Users';
 import { useNavigation } from '@react-navigation/native';
 
-// import { Container } from './styles';
-
 const Home = () => {
   const {data,isSuccess} = useQuery(['users'],async ()=>{
     const {data} = await api.get('/users')

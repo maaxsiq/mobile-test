@@ -10,6 +10,7 @@ const Home = () => {
     const {data} = await api.get('/users')
    return data
   })
+  
   if(!isSuccess){
     return null
   }

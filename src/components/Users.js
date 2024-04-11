@@ -1,7 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 
- import { Container,Name } from './styles';
+import { Container,Name } from './styles';
 import { useNavigation } from '@react-navigation/native';
 
 const Users = ({item}) => {
